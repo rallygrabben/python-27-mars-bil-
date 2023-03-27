@@ -1,5 +1,11 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>150</x><y>90</y><w>100</w><h>30</h></coordinates><panel_attributes>main() 
-	</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>90</y><w>140</w><h>220</h></coordinates><panel_attributes>Bil
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>150</x><y>90</y><w>100</w><h>220</h></coordinates><panel_attributes>Bilar.py() 
+--
+bilLista[bil]
+looping 
+--
+main().programmeri
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>90</y><w>140</w><h>220</h></coordinates><panel_attributes>Bil
 --
 fabrikat :str
 color : str
@@ -10,4 +16,5 @@ setFabrikat( str )
 getFabrikat() : str
 setColor( str ) 
 getColor() : str
-getLager() : int</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+getLager() : int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>190</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>140;10;10;10</additional_attributes></element></diagram>
